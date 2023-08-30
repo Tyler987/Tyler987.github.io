@@ -1,8 +1,27 @@
 /* Structure */
 body {
-    background-color: azure;
+    background-color: turquoise;
 
 }
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border:3px dotted darkgreen;
+}
+th {
+    background-color:darksalmon;
+}
+td {
+
+    background-color:mediumspringgreen;
+}
+
 
 /* Typography */
 
@@ -12,4 +31,8 @@ body {
 
 p {
     color: blueviolet;
+}
+
+h1 {
+    color:red;
 }
