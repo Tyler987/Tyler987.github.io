@@ -7,4 +7,24 @@ table {
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background:url(plaing.jpg);
+    color: ghostwhite;
+    padding:10px;
 }
+
+.clean-class {
+    background-color: seagreen;
+    padding: 10px;
+    border-radius: 10px;
+    width:50%;
+    margin:auto;
+}
+a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+
+  }
+  a:hover {
+    background-color: purple;
+  }
