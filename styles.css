@@ -1,10 +1,43 @@
-
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #333; /* Text color */
-    background-color: #f0f0f0; /* Background color */
-  }
+    color: yellowgreen;
+    background-color: #333333;
+}
+#practice {
+  background-color: darkgreen;
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+}
+p {
+  color:grey;
+}
   a {
-    text-decoration: ;
-    color: #ff6600;
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 3px;
+
   }
+  a:hover {
+    background-color: purple;
+  }
+table {
+    border-collapse: collapse;
+}
+th, td  {
+border: 2px dotted Green;
+padding: 4px;
+}
+#italic-stuff
+{
+  font-style: italic;
+}
+#special-typo a:hover{
+  background-color:darkolivegreen;
+}
+
+#special-typo {
+
+}

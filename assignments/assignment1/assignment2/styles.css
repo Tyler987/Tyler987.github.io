@@ -4,3 +4,7 @@ table {
     background-color: darkgreen;
     border:4px solid black;
 }
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background:url(plaing.jpg);
+}
