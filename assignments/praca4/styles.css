@@ -1,0 +1,97 @@
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: chartreuse;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the main boxes when screen size is reduced */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box {
+    width: 450px;
+    height:300px;
+    background-color:forestgreen;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Stack inner boxes vertically */
+    align-items: center;
+    margin: 10px;
+}
+
+.inner-box {
+
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
+/**/
+.container-head {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile screens */
+    position: relative; /* Enable positioning of Tyler Korth */
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap; /* Wrap elements on smaller screens */
+    align-items: flex-start; /* Align to the top left corner on larger screens */
+    justify-content: center;
+}
+
+.header h3 {
+    order: 2; /* Change the order on smaller screens */
+    position: absolute; /* Position Tyler Korth absolutely */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+}
+
+.header h1 {
+    order: 1; /* Change the order on smaller screens */
+}
+
+h1 {
+    text-align: center; /* Center-align Assignments heading */
+}
+
+/* Media query for screens narrower than 600px */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center align on smaller screens */
+    }
+
+    .header h3 {
+        order: 1; /* Reset the order for smaller screens */
+        position: static; /* Reset positioning for smaller screens */
+    }
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+ 
+    padding: 4px;
+    border-radius: 3px;
+
+  }
+  a:hover {
+    background-color: purple;
+  }
