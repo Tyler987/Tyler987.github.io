@@ -212,7 +212,54 @@ li {
    margin-top: 20px;
 }
 
+.main5 {
+    display: flex;
+}
 
+#sideimg {
+    flex: 1;
+    background: url('https://place-hold.it/250x250/CCC');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
 
+#sidetxt {
+    flex: 1;
+    padding: 20px;
+    background-color: darkred;
+    color: white; 
+}
 
+#sidetxt h1 {
+    font-size: 24px; 
+}
 
+.main6 {
+    display: flex;
+
+    margin: 0 auto; 
+}
+
+#left-section {
+    flex: 30%;
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 20px; 
+}
+
+#right-section {
+    flex: 70%;
+    background-color: red; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 100px;
+}
+
+#logoleft {
+
+    margin-right: 20px; 
+}
