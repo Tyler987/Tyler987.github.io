@@ -73,49 +73,49 @@ a {
 
 
 #search-input {
-    margin-left: 10px; /* Add some spacing to the left of the input field */
+    margin-left: 10px; 
 }
 #main-nav {
     display: flex;
-    justify-content: flex-end; /* Move content to the right side */
-    align-items: center; /* Vertically align items */
-    height: 50px; /* Adjust the height as needed */
+    justify-content: flex-end; 
+    align-items: center; 
+    height: 50px; 
 }
 
 .main1 {
-    text-align: center; /* Center the navigation items horizontally */
-    background-color: #333; /* Set the background color to dark gray */
-    padding: 10px 0; /* Add some padding for spacing */
+    text-align: center; 
+    background-color: #333; 
+    padding: 10px 0; 
 }
 
 #second-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Use flexbox for horizontal centering */
-    justify-content: center; /* Center items horizontally within the flex container */
+    display: flex; 
+    justify-content: center; 
 }
 
 #second-nav ul li {
-    margin-right: 20px; /* Add some spacing between items */
+    margin-right: 20px;
 }
 
 #second-nav ul li:last-child {
-    margin-right: 0; /* Remove margin from the last item */
+    margin-right: 0; 
 }
 
 #second-nav ul li a {
     text-decoration: none;
-    color: white; /* Set text color to white */
-    font-weight: bold; /* Make the text bold */
+    color: white; 
+    font-weight: bold; 
 
 }
 .col1of2 {
-    width: 48%; /* Set a width for the sections, adjust as needed */
-    padding: 20px; /* Add padding to create space within each section */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    width: 48%; 
+    padding: 20px; 
+    box-sizing: border-box; 
 
-    margin-right: 2%; /* Add margin to the right of the first section */
+    margin-right: 2%; 
 }col1of2 img {
     max-width: 100%;
     height: auto;
