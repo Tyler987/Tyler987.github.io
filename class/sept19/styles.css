@@ -1,0 +1,58 @@
+body {
+
+}
+
+#square {
+    background-color:red;
+    width:100px;
+    height:100px;
+    text-align: center;
+    line-height:100px;
+    position:relative;
+    animation-name: anim-square;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-square {
+    0% {
+        background-color:red;
+        top: 0px;
+    }
+    50% {
+    background-color:green;
+    top: 100px;
+    }
+    100% {
+        background-color:cornflowerblue;
+        top:0px;
+    }
+}
+
+@media only screen and (min) {
+    
+}
+
+.hide {
+    display: none;
+}
+#hamburger div {
+    width:35px;
+    height:5px;
+    background-color:black;
+    margin:6px;
+}
+label {
+    width:100px;
+    text-align:right;
+    padding:5px;
+
+}
+label,
+input {
+    display: block;
+}
+
+#result section {
+
+}
