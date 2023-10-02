@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Donations and Running Stickman</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main class="columns">
+        <section id="content1">
+            <div class="content">
+                <img id="man-image" src="runman.svg" alt="Stickman"/>
+            </div>
+        </section>
+
+        <section id="content2">
+            <div>
+                <h2><strong>How much will you donate?</strong></h2>
+                <h3><strong>Donation Goal: $100,000</strong></h3>
+                <p class="columns">
+                    <label for="txt-donation">Enter Donation Amount:</label>
+                    <input type="number" id="txt-donation">
+                    <br>
+                    <button onclick="donate()">Donate</button>
+    
+                </p>
+                <div class="rectangle-container">
+                    <div class="rectangle-fill" id="rectangle-fill"></div>
+                </div>
+        </section>
+    </main>
+</body>
+
+</html>

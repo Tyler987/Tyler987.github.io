@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap; /* Wrap the main boxes when screen size is reduced */
   justify-content: center;
   align-items: flex-start;
+  opacity:80%;
 }
 
 .box {

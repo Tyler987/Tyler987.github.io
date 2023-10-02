@@ -1,0 +1,117 @@
+body {
+    background-color: darkgrey;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+}
+
+section {
+    flex: 1;
+    padding: 5px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content1 {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    padding-bottom: 0;
+    border-right: 10px solid darkgrey; 
+}
+
+#content2 {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#man-image {
+    position: absolute;
+    width: 100px;
+    left: 0;
+    transition: left 2s;
+    cursor: pointer;
+}
+
+.rectangle-container {
+    width: 200px; 
+    height: 300px; 
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+}
+
+.rectangle-fill {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+    }    
+    .columns {
+        display: flex;
+    }
+    content {
+        display:flex;
+    }
+    header {
+        display:flex;
+    }
+    footer {
+        display:flex;
+    }
+    input,label {
+        display:flex;
+    }
+
+}
