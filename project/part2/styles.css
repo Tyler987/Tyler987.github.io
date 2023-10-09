@@ -1,0 +1,263 @@
+body {
+    background-color: silver;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.title {
+    display:flex;
+    position:relative;
+    margin-top:10px;
+    margin-right:5%;
+    font-size:60px;
+}
+
+.name1 {
+    display:flex;
+    position:absolute;
+    margin-left:60%;
+    margin-top:0%;
+
+}
+
+.name2 {
+    display:flex;
+    position:absolute;
+    margin-left:60%;
+    margin-top:4%;
+
+}
+
+.name3 {
+    display:flex;
+    position:absolute;
+    margin-left:60%;
+    margin-top:8%;
+}
+
+header {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 90%;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 120px;
+
+}
+content {
+    padding: 10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:400px;
+}
+.contact-box {
+    width: 1000px;
+    height:300px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right:10px;
+    flex-direction: row;
+
+}
+#latest {
+    background-color:lightblue;
+}
+#concerns {
+    width:300px;
+    height:200px;
+    margin-left:100px;
+}
+#concerns2 {
+    width:300px;
+    height:200px;
+    margin-left:50px;
+
+}
+#concerns3 {
+    width:300px;
+    height:200px;
+    margin-left:50px;
+    background-color:lightblue;
+
+}
+#concern-info {
+    margin-left:20px;
+}
+.contact-header {
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 150px;
+}
+.box {
+    width: 450px;
+    height:400px;
+    background-color:lightgrey;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 10px;
+}
+
+#hamburger div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold;
+    flex-direction: column;
+    flex:1;
+}
+#main-nav ul li .selected {
+    border-bottom: 2px solid black;
+}
+
+#main-nav ul li:hover button {
+    background-color: lightblue;
+}
+#main-nav ul {
+    padding-left: 0px;
+    text-align: center;
+    background-color: cornflowerblue;
+
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border: 1px solid black;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav li:hover {
+    background-color: lightblue;
+}
+
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+.hide-small {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+    }
+    .columns {
+        display: flex;
+    }
+
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+    content {
+        display:flex;
+    }
+    header {
+        display:flex;
+    }
+    footer {
+        display:flex;
+    }
+    input,label {
+        display:flex;
+    }
+    #main-nav li {
+        display: inline-block;
+    }
+    .columns {
+        display: flex;
+    }
+
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+    content {
+        display: flex;
+    }
+    header {
+        display: flex;
+    }
+    footer {
+        display: flex;
+    }
+    input,
+    label {
+        display: flex;
+    }
+    content {
+        display:flex
+    }
+    boxes {
+        display:flex;
+    }
+    .logo {
+        display: flex;
+        position: absolute;
+        margin-right: 60%;
+        margin-top: 0%;
+    }
+}
+
+.logo {
+    display:flex;
+    position:absolute;
+    margin-right:60%;
+    margin-top:0%;
+}

@@ -1,0 +1,87 @@
+body {
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+content {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+}
+
+div {
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 450px;
+    height: 300px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#slideshow {
+    background: white;
+    width: 100%;
+    text-align: center;
+}
+
+.rainbow-box div {
+    width: 200px;
+    height: 30px;
+    opacity: 0;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#green {
+    background-color: green;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#potOfGold {
+    display:none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.show {
+    opacity: 1;
+}
