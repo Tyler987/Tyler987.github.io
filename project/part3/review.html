@@ -11,11 +11,11 @@
 <body>
     <header>
         <div class="logo-head">
-            <img src="https://place-hold.it/100x100/FFF">
+            <a href="index.html"> <img src="pictures/vaultlogo.jpg" id="vault"> </a>
         </div>
 
         <div class="title">
-            <h1 >The Vault</h1>
+            <a href="index.html">  <h1 >The Vault</h1></a>
         </div>
 
         <div class="info">
@@ -44,44 +44,49 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="healthfitness.html">Health and Fitness</a></li>
-            <li><a href="review.html">Review Us</a></li>
+            <li><a href="review.html"><strong>Review Us</strong></a></li>
+
         </ul>
     </nav>
 
 
     <content>
+        <div class="reviews">
+            <div class="contact-header">
+                <h2>Do you have any questions? Ask Below!</h2>
+            </div>
+            <div class="contact-box">
 
-        <div class="box">
-            <h1>Swim Class</h1>
-            <h4>
-                Here you can learn to swim, take enderance swimming classes that range from new to advance.
-            </h4>
-            <img src="https://place-hold.it/100x100/FFF">
+                <div id="concern-info">
+                <label for="subject">Subject: </label>
+                <input type="text" id="subject"/>
+                <label for="Rating">Rating: </label>
+                <input type="number" id="Rating"/>
+                <br>
+                <button id="add-comment-button">Submit!</button>
+                <!-- reference assignment 6 -->
+                </div>
+            <div>
+            <input type="text" id="concerns2"/>
         </div>
-
-        <div class="box">
-            <h1>Iron Class</h1>
-            <h4>
-                Here in this class can you can learn all the fundamentals of weightings and powerlifting, which range from new to advanced.
-            </h4>
-            <img src="https://place-hold.it/100x100/FFF">
         </div>
-
-        <div class="box">
-            <h1>Dance Class</h1>
-            <h4>
-                In this class you will learn a variety of different dances, dance styles and more. 
-                This includes new to advance classes and we reccomend you bring a friend!
-            </h4>
-            <img src="https://place-hold.it/100x100/FFF">
+    </div>
+    <div class="reviews">
+        <div class="contact-header">
+            <h2>Latest Review!</h2>
         </div>
+        <div class="contact-box">
+            <label for="concern3">Reviews: </label>
+            <input type="text" id="concerns3"/>
+        </div>
+    </div>
 
     </content>
 
 
     <footer>
         <div class="logo-footer">
-            <img src="https://place-hold.it/100x100/FFF">
+            <a href="index.html"> <img src="pictures/vaultlogo.jpg" id="vault"> </a>
         </div>
        
         <div class="contact">

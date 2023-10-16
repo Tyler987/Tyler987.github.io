@@ -1,5 +1,20 @@
+a {
+    color:black;
+    text-decoration:none;
+}
+
+#vault {
+    width:100px;
+    height:100px;
+}
+
+#train {
+    width:200px;
+    height:200px;
+}
+
 body {
-    background-color: silver;
+    background-color: #635985;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     display: flex;
@@ -50,7 +65,7 @@ body {
 }
 
 header {
-    background-color: lightgrey;
+    background-color: #443C68;
     display: flex;
     align-items: center;
     flex:1;
@@ -69,7 +84,7 @@ header {
 }
 
 footer {
-    background-color: black;
+    background-color: #443C68;
     color:white;
     display: flex;
     align-items: center;
@@ -84,21 +99,81 @@ footer {
     flex:1;
 }
 #contact {
-    display:flex;
-    position:relative;
-    flex:1;
-
+    display: flex;
+    position: relative;
+    flex: 1;
 }
-content {
+
+.reviews {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex: 1; */
     justify-content: center;
-    flex-direction: row;
     align-items: center;
-
-    flex-grow: 1; /* Allow content to grow and push footer down */
+    /* width: 90%; */
 }
+
+.contact-box {
+    background-color: #443C68;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 300px; /* Set a fixed height for the contact-box */
+    align-items: center;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+}
+
+.contact-header {
+    background-color: #393053;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 150px; /* Set a fixed height for the contact-header */
+    min-height: 180px;
+    align-items: center;
+    text-align: center;
+}
+#latest {
+    background-color:#635985;
+}
+ /* #concerns {
+    width:300px;
+    height:200px;
+    margin-left:100px;
+} */
+#concerns2 {
+    width:100px;
+    height:100px;
+    padding:5px;
+
+    background-color:#635985;
+} 
+#concerns3 {
+    align-items: center;
+    width:100px;
+    height:100px;
+    margin-right:10%;
+padding:5px;
+    background-color:#635985;
+} 
+/* #concern-info {
+    margin-left:20px;
+} */
 
 .box {
     width: 450px;
@@ -106,7 +181,7 @@ content {
     background-color:lightgrey;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     margin: 10px;
 }
@@ -114,7 +189,7 @@ content {
 #hamburger div {
     width: 30px;
     height: 5px;
-    background-color: black;
+    background-color: #2C3333;
     margin: 6px 0;
 }
 
@@ -133,12 +208,12 @@ content {
 }
 
 #main-nav ul li:hover button {
-    background-color: lightblue;
+    background-color: #B9B4C7;
 }
 #main-nav ul {
     padding-left: 0px;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #2C3333;
 
 }
 
@@ -157,7 +232,7 @@ content {
 }
 
 #main-nav li:hover {
-    background-color: lightblue;
+    background-color: #B9B4C7;
 }
 
 
@@ -178,19 +253,10 @@ label {
 
 
 
-@media only screen and (max-width: 600px) {
-    .box {
-        width: 90%; 
-        margin: 10px 0;
-
-    }
-
-}
 @media only screen and (min-width: 600px) {
     #main-nav li {
         display: inline-block;
     }
-
     .columns {
         display: flex;
     }
@@ -198,27 +264,64 @@ label {
     #hamburger {
         display: none;
     }
-
     .hide-small {
         display: block;
     }
+    content {
+        display:flex;
+    }
+    header {
+        display:flex;
+    }
+    footer {
+        display:flex;
+    }
+    input,label {
+        display:flex;
+    }
+    #main-nav li {
+        display: inline-block;
+    }
+    .columns {
+        display: flex;
+    }
 
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
     content {
         display: flex;
     }
-
     header {
         display: flex;
     }
-
     footer {
         display: flex;
     }
-
-    input, label {
+    input,
+    label {
         display: flex;
+    }
+    content {
+        display:flex
+    }
+    boxes {
+        display:flex;
+    }
+    .logo {
+        display: flex;
+        position: absolute;
+        margin-right: 60%;
+        margin-top: 0%;
     }
 }
 
-
-
+.logo {
+    display:flex;
+    position:absolute;
+    margin-right:60%;
+    margin-top:0%;
+}

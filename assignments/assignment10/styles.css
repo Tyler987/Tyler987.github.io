@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+}
+header {
+    text-align:center;
+}
+footer {
+    text-align: center;
+}
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+.toy-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.toy-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* transition: opacity 0.3s; */ /*This almost killed me*/
+}
+
+.toy-image.faded {
+    opacity: 0.7;
+}
+
+.toy-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.toy-image:hover + .toy-details {
+    display: block;
+}
+.toy {
+    margin: 10px; 
+    width: calc(33.33% - 20px); /*looked this part up */
+    box-sizing: border-box; 
+}
+#toy-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+.toy {
+    flex: 0 0 calc(16.666% - 20px); 
+    margin: 20px; /* Add space between the toy items */
+    box-sizing: border-box; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .toy {
+        width: calc(50% - 20px); /* two toys on screen*/
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .toy {
+        width: calc(100% - 20px); /*one toy*/
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .toy {
+        flex: 0 0 calc(25% - 20px); /*four toys */
+    }
+}
+

@@ -7,12 +7,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: chartreuse;
+  background-color: #040D12;
+  color:#93B1A6;
 }
 
 #container {
   display: flex;
-  flex-wrap: wrap; /* Wrap the main boxes when screen size is reduced */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: flex-start;
   opacity:80%;
@@ -20,19 +21,20 @@ body {
 
 .box {
   width: 450px;
-  height:300px;
-  background-color:forestgreen;
+  height:350px;
+  background-color:#183D3D;
   color: #fff;
   display: flex;
-  flex-direction: column; /* Stack inner boxes vertically */
+  flex-direction: column;
   align-items: center;
   margin: 10px;
+  border: solid #5C8374 3px;
 }
 
 .inner-box {
 
   
-  color: #fff;
+  color:#93B1A6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,45 +42,45 @@ body {
 }
 
 
-/**/
+
 .container-head {
   display: flex;
-  flex-direction: column; /* Stack elements vertically on mobile screens */
-  position: relative; /* Enable positioning of Tyler Korth */
+  flex-direction: column; 
+  position: relative; 
 }
 
 .header {
   display: flex;
-  flex-wrap: wrap; /* Wrap elements on smaller screens */
-  align-items: flex-start; /* Align to the top left corner on larger screens */
+  flex-wrap: wrap; 
+  align-items: flex-start; 
   justify-content: center;
 }
 
 .header h3 {
-  order: 2; /* Change the order on smaller screens */
-  position: absolute; /* Position Tyler Korth absolutely */
-  top: 0; /* Position at the top */
-  left: 0; /* Position at the left */
+  order: 2; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
 
 .header h1 {
-  order: 1; /* Change the order on smaller screens */
+  order: 1; 
 }
 
 h1 {
-  text-align: center; /* Center-align Assignments heading */
+  text-align: center; 
 }
 
 /* Media query for screens narrower than 600px */
 @media (max-width: 600px) {
   .header {
-      flex-direction: column; /* Stack elements vertically on smaller screens */
-      align-items: center; /* Center align on smaller screens */
+      flex-direction: column; 
+      align-items: center; 
   }
 
   .header h3 {
-      order: 1; /* Reset the order for smaller screens */
-      position: static; /* Reset positioning for smaller screens */
+      order: 1; 
+      position: static; 
   }
 }
 ul {
@@ -87,12 +89,27 @@ ul {
 }
 a{
   text-decoration: none;
-  color: black;
+  color: #93B1A6;
 
   padding: 4px;
   border-radius: 3px;
 
 }
 a:hover {
-  background-color: purple;
+  background-color: #5C8374;
+}
+
+#transfer {
+  align-items: center;
+  display:flex;
+  position: relative;
+  margin-left:45%;
+  margin-right:44%;
+}
+#transferp {
+  align-items: center;
+  display:flex;
+  position: relative;
+  margin-left:45%;
+  margin-right:43%;
 }
