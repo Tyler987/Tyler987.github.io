@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>contact me for website</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header></header>
+
+    <content>
+
+
+        <form
+          id="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="0a7427f5-0a51-4b26-9739-a9b66beb6aa9"
+          />
+
+          <p>
+            <label for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="first and last"
+              name="name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required />
+          </p>
+          <p>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </p>
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://web3forms.com/success"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="Contact from Jaspers Website"
+          />
+          <input type="hidden" name="from_name" value="My Website" />
+
+          <p>
+            <button type="submit">Submit Form</button>
+          </p>
+
+          <p id="result"></p>
+        </form>
+
+
+
+    </content>
+    <footer></footer>
+    <script src="contact.js"></script>
+</body>
+
+</html>

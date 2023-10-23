@@ -2,96 +2,70 @@
 <html lang="en">
 
 <head>
-    <title>Project Part 2 HTML and CSS</title>
+    <title>Sign up for a Free Trial</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-
 </head>
 
 <body>
-    <header>
-        <div class="logo-head">
-            <img src="https://place-hold.it/100x100/FFF">
-        </div>
-
-        <div class="title">
-            <h1 >The Vault</h1>
-        </div>
-
-        <div class="info">
-            <div class="name1">
-            <h3>By Tyler Korth</h3>
-            </div>
-            <div class="name2">
-            <a href ="../../assignments/wireframe/index.html">WireFrame</a> 
-            </div>
-            <div class="name3">
-            <h3>CSCE Web Applications</h3>  
-            </div>
-        </div>
-
-    </header>
-
-
-    <nav id="main-nav">
-        <div id="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <ul id="nav-items" class="hide-small">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="healthfitness.html">Health and Fitness</a></li>
-            <li><a href="review.html">Review Us</a></li>
-        </ul>
-    </nav>
-
-
-    <content>
-
-        <div class="box">
-            <h1>Swim Class</h1>
-            <h4>
-                Here you can learn to swim, take enderance swimming classes that range from new to advance.
-            </h4>
-            <img src="https://place-hold.it/100x100/FFF">
-        </div>
-
-        <div class="box">
-            <h1>Iron Class</h1>
-            <h4>
-                Here in this class can you can learn all the fundamentals of weightings and powerlifting, which range from new to advanced.
-            </h4>
-            <img src="https://place-hold.it/100x100/FFF">
-        </div>
-
-        <div class="box">
-            <h1>Dance Class</h1>
-            <h4>
-                In this class you will learn a variety of different dances, dance styles and more. 
-                This includes new to advance classes and we reccomend you bring a friend!
-            </h4>
-            <img src="https://place-hold.it/100x100/FFF">
-        </div>
-
-    </content>
-
-
-    <footer>
-        <div class="logo-footer">
-            <img src="https://place-hold.it/100x100/FFF">
-        </div>
-       
-        <div class="contact">
-            <h3>
-            The Vault | 1626 Vault Dr. Columbia, SC 29206 | ***-***-****
-            </h3>
-        </div>
-    </footer>
-
-
+    <header></header>
+    <section>
+        <h4>Sign up for a Free Trial:</h4>
+        <p>Please enter your information for your free trial today!</p>
+        <form id="form-trial">
+            <p>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required />
+            </p>
+            <p>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required />
+            </p>
+            <p>
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" required />
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+            </p>
+            <p>
+                <label for="birth-date">Birth Date:</label>
+                <input type="date" id="birth-date" required />
+            </p>
+            Experience Level:
+            <p>
+                <input type="radio" name="experience" value="inexperienced" id="inexperienced" />
+                <label for="inexperienced" class="inline">Inexperienced</label>
+            </p>
+            <p>
+                <input type="radio" name="experience" value="experienced" id="experienced" />
+                <label for="experienced" class="inline">Experienced</label>
+            </p>
+            Goals:
+            <p>
+                <select name="goals">
+                    <option value="fat-loss">Decrease Fat</option>
+                    <option value="muscle-mass">Increase Muscle Mass</option>
+                    <option value="active">Just wanting to be active</option>
+                    <option value="all">All of the Above</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" name="terms" id="terms" />
+                <label for="terms" class="inline">I agree to the terms.</label>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </section>
+    <section id="results" class="hidden">
+        <h4>Results</h4>
+        <p>Your information has been sent, someone will contact you very shortly.</p>
+    </section>
+    <content></content>
+    <footer></footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,224 +1,78 @@
-body {
-    background-color: silver;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 45px;
-    min-height: 100vh; /* Ensure the body takes at least the height of the viewport */
-}
-
-.title {
-    display:flex;
-    position:relative;
-    margin-top:10px;
-    margin-right:20%;
-    font-size:20px;
-    flex:1;
-    margin-left:5%;
-}
-
-#info {
-    flex:1;
-    display:flex;
-    position:relative;
-
-}
-
-.name1 {
-    display:flex;
-    position:relative;
-
-    margin-top:0%;
-
-}
-
-.name2 {
-    display:flex;
-    position:relative;
-
-    margin-top:4%;
-
-}
-
-.name3 {
-    display:flex;
-    position:relative;
-
-    margin-top:8%;
-}
-
-header {
-    background-color: lightgrey;
-    display: flex;
-    align-items: center;
-    flex:1;
-    position:relative;
-    justify-content: center; 
-    width: 90%;
-    height: 200px;
-}
-.logo-head {
-    display:flex;
-    position:relative;
-    /* margin-right:60%; */
-    margin-top:0%;
-    margin-left:5%;
-    flex:1;
-}
-
-footer {
-    background-color: black;
-    color:white;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #main-menu {
+    background-color: #595a5c;
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 120px;
-}
-
-#logo-footer {
-    display:flex;
-    position:relative;
-    flex:1;
-}
-#contact {
-    display:flex;
-    position:relative;
-    flex:1;
-
-}
-content {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-
-    flex-grow: 1; /* Allow content to grow and push footer down */
-}
-
-.box {
-    width: 450px;
-    height:400px;
-    background-color:lightgrey;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-}
-
-#hamburger div {
-    width: 30px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
-
-
-
-.button {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    font-weight: bold;
-    flex-direction: column;
-    flex:1;
-}
-#main-nav ul li .selected {
-    border-bottom: 2px solid black;
-}
-
-#main-nav ul li:hover button {
-    background-color: lightblue;
-}
-#main-nav ul {
-    padding-left: 0px;
-    text-align: center;
-    background-color: cornflowerblue;
-
-}
-
-#main-nav li {
+  }
+  
+  #main-menu ul {
+    float: right;
+    overflow: hidden;
+    margin-right: 2%;
+  }
+  
+  #main-menu li {
     list-style-type: none;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom:10px;
-    border: 1px solid black;
-}
-
-#main-nav a {
+    display: inline-block;
+  }
+  
+  #main-menu a {
     text-decoration: none;
-    color: black;
-}
-
-#main-nav li:hover {
-    background-color: lightblue;
-}
-
-
-label,
-input {
+    color: white;
+    padding: 10px;
+  }
+  
+  form {
+    margin: 0 2%;
+  }
+  
+  form label {
+    font-size: 0.75em;
     display: block;
-}
-
-label {
-    width: 100px;
-    text-align: right;
+  }
+  
+  form input:not([type="checkbox"]):not([type="radio"]),
+  form textarea,
+  form button,
+  select {
+    font-size: 0.75em;
+    width: 200px;
     padding: 5px;
-}
-
-.hide-small {
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 20px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  form textarea {
+    min-height: 200px;
+  }
+  
+  h4 {
+    font-size: 1em;
+    font-weight: 100;
+  }
+  
+  .hidden {
     display: none;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-    .box {
-        width: 90%; 
-        margin: 10px 0;
-
-    }
-
-}
-@media only screen and (min-width: 600px) {
-    #main-nav li {
-        display: inline-block;
-    }
-
-    .columns {
-        display: flex;
-    }
-
-    #hamburger {
-        display: none;
-    }
-
-    .hide-small {
-        display: block;
-    }
-
-    content {
-        display: flex;
-    }
-
-    header {
-        display: flex;
-    }
-
-    footer {
-        display: flex;
-    }
-
-    input, label {
-        display: flex;
-    }
-}
-
-
-
+  }
