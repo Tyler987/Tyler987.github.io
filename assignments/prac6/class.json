@@ -1,0 +1,74 @@
+{
+    "workout_classes": [
+      {
+        "Class Name": "HIIT Fusion",
+        "Class Type": "Cardio",
+        "Experience Level": "Intermediate",
+        "Exercise Type": "High-Intensity Interval Training",
+        "Days Available": ["Monday", "Wednesday", "Friday"],
+        "Times Available": ["9:00 AM", "5:30 PM"],
+        "Description": "Join our HIIT Fusion class for a heart-pounding workout that combines various cardio exercises and bodyweight movements. Burn calories, improve your endurance, and sculpt your body.",
+        "Image": "hiit_fusion.jpg"
+      },
+      {
+        "Class Name": "Yoga Flow",
+        "Class Type": "Yoga",
+        "Experience Level": "Beginner",
+        "Exercise Type": "Vinyasa Yoga",
+        "Days Available": ["Tuesday", "Thursday", "Saturday"],
+        "Times Available": ["10:00 AM", "6:00 PM"],
+        "Description": "Unwind and destress with our Yoga Flow class. Perfect for beginners, this class focuses on fluid movements and deep breathing, promoting flexibility, balance, and relaxation.",
+        "Image": "yoga_flow.jpg"
+      },
+      {
+        "Class Name": "Strength Training",
+        "Class Type": "Strength",
+        "Experience Level": "Advanced",
+        "Exercise Type": "Weightlifting",
+        "Days Available": ["Monday", "Wednesday", "Friday"],
+        "Times Available": ["7:00 AM", "4:30 PM"],
+        "Description": "Take your strength to the next level with our Advanced Strength Training class. Lift weights and build muscle under the guidance of expert trainers.",
+        "Image": "strength_training.jpg"
+      },
+      {
+        "Class Name": "Pilates Core",
+        "Class Type": "Pilates",
+        "Experience Level": "Intermediate",
+        "Exercise Type": "Mat Pilates",
+        "Days Available": ["Tuesday", "Thursday", "Saturday"],
+        "Times Available": ["8:30 AM", "7:00 PM"],
+        "Description": "Strengthen your core and improve your posture with our Pilates Core class. Suitable for intermediate levels, this class focuses on controlled movements and body awareness.",
+        "Image": "pilates_core.jpg"
+      },
+      {
+        "Class Name": "Cycling Cardio",
+        "Class Type": "Cardio",
+        "Experience Level": "All Levels",
+        "Exercise Type": "Indoor Cycling",
+        "Days Available": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "Times Available": ["6:30 AM", "6:00 PM"],
+        "Description": "Pedal your way to fitness in our Cycling Cardio class. All fitness levels are welcome to join this high-energy, indoor cycling workout.",
+        "Image": "cycling_cardio.jpg"
+      },
+      {
+        "Class Name": "Bootcamp Challenge",
+        "Class Type": "Bootcamp",
+        "Experience Level": "Advanced",
+        "Exercise Type": "Full-Body Workout",
+        "Days Available": ["Tuesday", "Thursday", "Saturday"],
+        "Times Available": ["9:30 AM", "5:30 PM"],
+        "Description": "Get ready for an intense workout with our Bootcamp Challenge class. This advanced class incorporates a variety of exercises to push your limits.",
+        "Image": "bootcamp_challenge.jpg"
+      },
+      {
+        "Class Name": "Zumba Dance Party",
+        "Class Type": "Dance",
+        "Experience Level": "Beginner",
+        "Exercise Type": "Zumba",
+        "Days Available": ["Wednesday", "Friday", "Sunday"],
+        "Times Available": ["6:30 PM", "8:00 PM"],
+        "Description": "Join the Zumba Dance Party and groove to the rhythm. This beginner-friendly class combines dance and fitness for a fun and exciting workout.",
+        "Image": "zumba_dance_party.jpg"
+      }
+    ]
+  }
