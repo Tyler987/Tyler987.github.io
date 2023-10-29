@@ -28,7 +28,7 @@
         "Days Available": ["Monday", "Wednesday", "Friday"],
         "Times Available": ["7:00 AM", "4:30 PM"],
         "Description": "Take your strength to the next level with our Advanced Strength Training class. Lift weights and build muscle under the guidance of expert trainers.",
-        "Image": "strength_training.jpg"
+        "Image": "strength_training.webp"
       },
       {
         "Class Name": "Pilates Core",
@@ -38,7 +38,7 @@
         "Days Available": ["Tuesday", "Thursday", "Saturday"],
         "Times Available": ["8:30 AM", "7:00 PM"],
         "Description": "Strengthen your core and improve your posture with our Pilates Core class. Suitable for intermediate levels, this class focuses on controlled movements and body awareness.",
-        "Image": "pilates_core.jpg"
+        "Image": "pilates_core.webp"
       },
       {
         "Class Name": "Cycling Cardio",
@@ -48,7 +48,7 @@
         "Days Available": ["Monday", "Wednesday", "Friday", "Sunday"],
         "Times Available": ["6:30 AM", "6:00 PM"],
         "Description": "Pedal your way to fitness in our Cycling Cardio class. All fitness levels are welcome to join this high-energy, indoor cycling workout.",
-        "Image": "cycling_cardio.jpg"
+        "Image": "cycling_class.jpg"
       },
       {
         "Class Name": "Bootcamp Challenge",
