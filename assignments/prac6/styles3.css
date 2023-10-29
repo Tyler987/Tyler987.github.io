@@ -1,0 +1,166 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#vault {
+    width: 100px;
+    height: 100px;
+}
+
+#train {
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-color: #635985;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    min-height: 100vh;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 20%;
+    font-size: 20px;
+    flex: 1;
+    margin-left: 5%;
+}
+
+header {
+    background-color: #443C68;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    justify-content: center;
+    width: 90%;
+    height: 200px;
+}
+
+.logo-head {
+    display: flex;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 5%;
+    flex: 1;
+}
+
+footer {
+    background-color: #443C68;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+}
+
+#logo-footer {
+    display: flex;
+    position: relative;
+    flex: 1;
+}
+
+#main-nav ul {
+    padding-left: 0px;
+    text-align: center;
+    background-color: #2C3333;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-nav li:hover {
+    background-color: #B9B4C7;
+}
+
+.hide-small {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    .hide-small {
+        display: block;
+    }
+
+    content {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+    }
+
+    footer {
+        display: flex;
+    }
+}
+.class-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkpurple;
+    padding: 20px;
+  }
+  
+  .class-card {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width:80%;
+  }
+  
+  .class-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    object-fit: cover; /* Ensure the image fits the container */
+  }
+  
+  .class-details {
+    padding: 20px;
+    color: black;
+    flex: 1; /* Make details take up available space */
+  }
+  content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    min-height: 100vh;
+  }
