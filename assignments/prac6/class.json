@@ -28,7 +28,7 @@
         "Days Available": ["Monday", "Wednesday", "Friday"],
         "Times Available": ["7:00 AM", "4:30 PM"],
         "Description": "Take your strength to the next level with our Advanced Strength Training class. Lift weights and build muscle under the guidance of expert trainers.",
-        "Image": "strength_training.webp"
+        "Image": "strength_training.jpg"
       },
       {
         "Class Name": "Pilates Core",
@@ -38,7 +38,7 @@
         "Days Available": ["Tuesday", "Thursday", "Saturday"],
         "Times Available": ["8:30 AM", "7:00 PM"],
         "Description": "Strengthen your core and improve your posture with our Pilates Core class. Suitable for intermediate levels, this class focuses on controlled movements and body awareness.",
-        "Image": "pilates_core.webp"
+        "Image": "pilates_core.jpg"
       },
       {
         "Class Name": "Cycling Cardio",
