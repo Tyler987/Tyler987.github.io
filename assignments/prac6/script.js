@@ -13,7 +13,7 @@ const getClasses = async () => {
     classCard.classList.add("class-card"); // Define the CSS class for class cards in your styles.css.
   
     const image = document.createElement("img");
-    image.src = "https://tyler987.github.io/assignments/prac6//trainimg/" + workoutClass.Image;
+    image.src = "https://tyler987.github.io/assignments/prac6/trainimg/" + workoutClass.Image;
     image.classList.add("class-image");
   
     const classDetails = document.createElement("div");
